@@ -1,0 +1,50 @@
+)//vysledek: 100/100
+
+    // kolikrat projde cyklus? 4 krat
+    int i = 0;
+    while (i < 10) {
+            i += 3;
+        }
+
+
+    // co je spatne? metoda nema nadeklarovany navratovy typ (je void, ale je tam return x)
+    public void Metoda(interface vstup) {
+        int x = 5;
+        if (vstup == 6) {
+            x += vstup;
+        }
+        return x;
+    }
+
+    // kolikrat projde cyklus? 2 prubehy
+    int i = 9;
+    do {
+        i++;
+    } while (i <= 10);
+
+
+    // kolik je vystup? je tam ref=predani odkazem. Vysledek je 36.
+    public static void DruhaMocnina(ref int x) {
+        x *= x;
+    }
+
+    public tatic void Main() {
+        int x = 6;
+        DruhaMocnina(ref x);
+        Console.WriteLine(x);
+    }
+
+/*
+Teoreticky:
+vyberte spravne tvrzeni
+- odpoved: Kazdy objekt ma identitu, ktera ho odlisuje od ostatnich objektu
+
+Neni pravda, ze:
+- odpoved: Trida definuje pouze datovou slozku svych instanci, metody definuji rozhrani
+
+Pri dedeni nova trida na zaklade jine dedi:
+- odpoved: Stav i chovani
+
+Pole je:
+- odpoved: Mnozina promennych stejnych typu o pevne dannem poctu prvku
+*/

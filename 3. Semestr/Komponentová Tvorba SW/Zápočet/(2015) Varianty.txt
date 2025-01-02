@@ -1,0 +1,116 @@
+﻿Které tvrzení o objektu není platné?
+Vyberte jednu odpověď
+	a. Objekt má identitu. 	
+	b. Stav popisuje konkrétni datovou složku objektu. 	
+	c. Díky zapouzdření nepoznáme, zda je hodnota v objektu přímo uložena nebo získána jiným způsobem. 	
+	d. Objekt obsahuje pouze data. 
+
+Body: 1
+Kolikrát se provede tělo následujícího cyklu while?
+
+1 int i = 0;
+2 
+3 while (i < 10)
+4 {
+5   i++;
+6 }
+
+Vyberte jednu odpověď
+	a. 10x 	
+	b. 11x 	
+	c. 9x 
+
+Tato metoda obsahuje chybu. Jakou?
+
+ 1 public int Metoda(int vstup)
+ 2 {
+ 3     int x = 5;
+ 4     if (vstup == 6)
+ 5     {
+ 6         int y = 6;
+ 7         y += x;
+ 8     }
+ 9     return y;
+10 }
+
+Vyberte jednu odpověď
+	a. Do proměnné "y" nelze přičíst hodnotu "x", protože je definována na jiné úrovni. 	
+	b. Proměnná "y" je jiného druhu než "x". 	
+	c. Proměnná "y" je definována pouze v rámci bloku výrazu "if", mimo něj neexistuje a proto jí nelze použít jako návratový výraz. 	
+	d. Metoda nemá vracet žádné hodnoty. 
+
+Body: 1
+
+Následující kód definuje metodu DruhaMocnina, která vypočítá druhou mocninu hodnoty předané parametrem, a tělo programu, ve kterém je tato metoda volána.
+
+ 1 public static void DruhaMocnina(int x) 
+ 2 {
+ 3   x *= x;
+ 4 }
+ 5 
+ 6 public static void Main() 
+ 7 {
+ 8    int x = 6;
+ 9    DruhaMocnina(x);
+10    Console.WriteLine(x);
+11 }
+
+Jakou hodnotu vypíše výraz Console.WriteLine(x), který v hlavním programu následuje po zavolání metody?
+Vyberte jednu odpověď
+	a. 6 	
+	b. Žádnou, protože metoda DruhaMocnina nevrací žádnou hodnotu. 	
+	c. 36 
+
+
+Vyberte tvrzení o strukturách (struct), které není pravdivé:
+Vyberte jednu odpověď
+	a. Od struktury i třídy lze děděním vytvářet podtypy. 	
+	b. Struktury se vždy předávají hodnotou. 	
+	c. Struktura je odlehčenou podobou třídy. 	
+	d. Struktury obsahují data i chování. 	
+
+Body: 1
+Polymorfismus umožňuje:
+Vyberte jednu odpověď
+	a. zaslat jednomu objektu různé zprávy a on na ně reaguje stejně. 	
+	b. zaslat více objektům stejnou zprávu a ty reagují ruzně. 	
+	c. zaslat více objektům různou správu a ty reagují stejně. 
+
+Body: 1
+Které tvrzení o objektu není platné?
+Vyberte jednu odpověď
+	a. Objekt má identitu. 	
+	b. Stav popisuje konkrétni datovou složku objektu. 	
+	c. Díky zapouzdření nepoznáme, zda je hodnota v objektu přímo uložena nebo získána jiným způsobem. 	
+	d. Objekt obsahuje pouze data. 
+
+Stav objektu:
+Vyberte jednu odpověď
+	a. umožňuje odlišit jeden objekt od druhého 	
+	b. popisuje datovou složku objektu 	
+	c. umožňuje polymorfismus 	
+	d. představuje chování objektu 
+
+Body: 1
+Kolikrát proběhne tělo následujícího cyklu DO?
+
+1 int i = 9;
+2 
+3 do
+4 {
+5   i++;
+6 } while (i <= 10);
+
+Vyberte jednu odpověď
+	a. 3x 	
+	b. 2x 	
+	c. 4x 	
+	d. 1x 
+
+
+
+ spravne tvrzeni: kazdy objekt ma identitu, ketra ho odlisuje od ostatncih objektu
+neni pravda: trida definuje pouze datovou slozku svych instanci, metody definuje (/ji) rozhrani
+pri dedeni nova trida na zaklade jine tridy dedi: stav i chovani
+pole: mnozina promennych stejneho typu o pevne dannem poctu prvku
+pak pruchod while, do, metoda nemela nadefinouvanej navratovej typ (byla void, byl v ni return x). a hodnota predana odkazem ref x, vysledek mocniny=36
