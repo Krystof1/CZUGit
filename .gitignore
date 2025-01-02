@@ -1,0 +1,38 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Temporary files
+*.tmp
+*.log
+
+# C# specific
+*.cache
+*.csproj.user
+
+# Office files (if you don't want version control for temporary Office files)
+~$*.docx
+~$*.xlsx
+
+# Backup files
+*.bak
+*.old
+*.swp
+*.swn
+
+# PDFs (optional, if you don't want to track PDFs)
+*.pdf
